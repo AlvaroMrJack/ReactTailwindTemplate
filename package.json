@@ -1,15 +1,18 @@
 {
-  "name": "template-react-tailwind",
+  "name": "my-blog",
   "version": "0.1.0",
   "private": true,
+  "proxy": "http://localhost:8000/",
   "dependencies": {
-    "@testing-library/jest-dom": "^5.16.4",
-    "@testing-library/react": "^13.2.0",
-    "@testing-library/user-event": "^13.5.0",
-    "react": "^18.1.0",
-    "react-dom": "^18.1.0",
-    "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
+    "@testing-library/jest-dom": "^5.12.0",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^12.8.3",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.3",
+    "web-vitals": "^1.1.2",
+    "whatwg-fetch": "^3.6.2"
   },
   "scripts": {
     "build:css": "postcss src/styles/index.css -o src/styles/tailwind.css",
@@ -39,9 +42,10 @@
     ]
   },
   "devDependencies": {
-    "autoprefixer": "^10.4.7",
+    "autoprefixer": "^10.2.6",
     "npm-run-all": "^4.1.5",
-    "postcss-cli": "^9.1.0",
-    "tailwindcss": "^3.0.24"
+    "postcss": "^8.3.0",
+    "postcss-cli": "^8.3.1",
+    "tailwindcss": "^2.1.4"
   }
 }
