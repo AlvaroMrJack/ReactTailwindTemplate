@@ -24,8 +24,8 @@ function App() {
           <Route exact path='/article/:name' component={Article} />
           <Route component={NotFound} />
         </Switch>
+        {/* <Footer /> */}
       </div>
-      <Footer />
     </Router>
   );
 }
